@@ -1,0 +1,82 @@
+*{
+    font-family: sans-serif;
+    
+    margin: 0;
+}
+    
+.head{
+    background-color: rgb(216, 227, 227);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.head h1{
+    
+}
+.form{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.field{
+    padding: 5px;
+}
+.bodyApp{
+    background-image: linear-gradient(to right, rgb(190, 173, 150), #c3d280);
+}
+.todolist ul{
+   display: block;
+   margin-left: 50px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.todolist h3{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.button{
+    background-color: rgb(232, 82, 82);
+    border: 0;
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.button:hover{
+    background-color: rgb(210, 9, 9);
+    font-family: monospace;
+}
+.subbutton{
+    background-color: #386ee1;
+    border: 0;
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 5px;
+}
+.subbutton:hover{
+    background-color: rgb(30, 30, 246);
+    font-family: monospace;
+}
+.time{
+    display: inline;
+    float: right;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    /* background-image: linear-gradient(to right, rgb(237, 105, 105), rgb(233, 90, 34)); */
+    background-color: rgb(61, 203, 42);
+}
